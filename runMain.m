@@ -1,6 +1,6 @@
 %复现论文10.1109/ACCESS.2016.2587581 作者Srivastava Madhur, Anderson C. Lindsay
 %代码作者：陈羿乔 Yiqiao Chen
-%日期：2024/4/23
+%日期：2024/4/23 - 2024/4/23
 
 %复现效果不好
 
@@ -12,7 +12,7 @@ format compact; %命令行显示不换行
 %==========================================================================
 
 %读取PPG文件
-file1 = readmatrix("755.csv");
+file1 = readmatrix("data.csv");
 file1 = file1(1:length(file1),1);
 rowPpg1 = cat(1, zeros(2^14 - length(file1), 1), file1); %补零延拓为2幂次的数据
 clear file1;
