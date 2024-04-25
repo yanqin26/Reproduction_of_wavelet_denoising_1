@@ -7,7 +7,7 @@ Reproduction of paper, all by my own with out professor advising, spend me a who
 
 ![image-20240425023403306](README.assets/image-20240425023403306.png)
 
-The red line is the denoised signal and blue one is the row signal. As you can see, many peak value of denoised signal is higher than row signal's. I guess that is a **result of thresholding the positive and negative coefficients separately**, that is, in some dec-level, only the negative coefficients has been set to 0 due to the hard thresholding in some location, but those positive coefficients from other dec-level but in the same location are not changed. So as why some magnitude in red one is lower than blue one. It may also be due to the fact that the **same sample mean and sample variance are used for both thresholds for positive and negative parameters**.
+The red line is the denoised signal and blue one is the row signal. As you can see, many peak value of denoised signal is higher than row signal's. I guess that is a **result of thresholding the positive and negative coefficients separately**, that is, in some dec-level, only the negative coefficients has been set to 0 due to the hard thresholding in some location, but those positive coefficients from other dec-level but in the same location are not changed. Same can explain why some magnitude in red one is lower than blue one. It may also be due to the fact that the **same sample mean and sample variance are used for both thresholds for positive and negative parameters**.
 
 Any algorithm that assumes some aspects of its superiority inevitably assumes certain risks. that's what i have learned in my algorithm class. But more evidence would need to be experimented with to come up with it. but whatever, i will keep going. 
 
