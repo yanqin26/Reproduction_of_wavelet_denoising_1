@@ -1,5 +1,5 @@
 # Reproduction_of_wavelet_denoising_1
-Reproduction of paper, all by my own with out professor advising, spend me a whole day. This is my first try in a journal, i guess i do my best, written this code in twice(first one got a bug but i can't find out, so i write a new one). The truth is, my code didn't work well, The signal is somewhat distorted and the noise is not effectively removed. This may or may not be a coincidence.
+Reproduction of paper, all by my own with out professor advising, spend me a whole day. This is my first try in a journal, i guess i do my best, written this code in twice(first one got a bug but i can't find out, so i write a new one). The truth is, my code didn't work well, The signal is somewhat distorted and the noise is not effectively removed. This may or may not be a coincidence. Cheak my whole note from https://github.com/yanqin26/Wavelet_Denoising_Literature_Survey
 
 
 
